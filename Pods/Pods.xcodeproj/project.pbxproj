@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0387DD8C570EE323D761613B9D9F7CFF /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D95F56AB2FAEFCE7BA6B27E977C25BA /* ACEDrawingView.m */; };
+		06DF817A3EB1994EF1B35C746AD0DFF0 /* sticker_close.png in Resources */ = {isa = PBXBuildFile; fileRef = C8EF9FE032C4D01D0F5395A4354117A9 /* sticker_close.png */; };
+		13F68B5BC87829190C34D8D126917198 /* ACEDrawingTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DA1E8117C4C0B96C9DE4C4C6E0174C8B /* ACEDrawingTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AE5FA78E3BC4748CFC40DFC5290DE4 /* ACEDrawingView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DAD02CF3592E5B0FEAA61D511232655B /* ACEDrawingView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A9BA285CF373081CD5EAC6D1A14662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		2F528671CAC96D3200C85E4701A4157D /* ACEDraggableText.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F3AE6EE76891734B2745EDA987EFA8C /* ACEDraggableText.bundle */; };
+		3B7AC4EA97B560B2551E1041E3DDB786 /* Pods-ToDoey05-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614BC67AEBC9EA9CD19EFA66F9F9D815 /* Pods-ToDoey05-dummy.m */; };
+		3EDD0B329C4FDDF12BB0472AB93EBDA6 /* sticker_resize@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F891349900DBA3CAE0F01B65133D023 /* sticker_resize@2x.png */; };
+		704791E72D7638F10727726B2CDE0A76 /* sticker_resize@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 438B8FD3ECF466E073568B182B2FC64C /* sticker_resize@3x.png */; };
+		708FF7D13544AFA4A957BB9D167AA6B7 /* ACEDrawingLabelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4618ED70BB32E4514F5257F63249CDF4 /* ACEDrawingLabelView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7462DED3CF7AF5EEBE4732069C98D69E /* sticker_close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 797755E98A903E713D9EC6F44668E720 /* sticker_close@3x.png */; };
+		7594C7B2642217875F9781278E256599 /* ACEDrawingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 49435067A4FB846AC026BEA8649EE9BE /* ACEDrawingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8145AD827E1E2858750C7787095E8E26 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */; };
+		81E1B7810D5CBB6961C39A6F9AB7E141 /* ACEDrawingLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 360332C9BA8C5D5A39B80E594B8AEDDB /* ACEDrawingLabelView.m */; };
+		8355147953F20AA57095C8143FB1AA90 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FA590F3B45D78BAE3A5204B8774FCE /* ACEDrawingTools.m */; };
+		869E529D66D122BD6C9CC45C4964C586 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */; };
+		86CA1339F767C13193ED7D3F6531CEFC /* ACEDrawingToolState.m in Sources */ = {isa = PBXBuildFile; fileRef = E29BB1D99E59D0DEA16CAF87291ED0B2 /* ACEDrawingToolState.m */; };
+		B07813CF07C7AFD2C19C4DCF32B792C7 /* ACEDrawingToolState.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C3A49AEE84CB217D969202AA721DA4 /* ACEDrawingToolState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B14E5B46C138E3E4D858474210994859 /* sticker_resize.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1EAAC63FAD7C3EB4C50E47C8DAD0CA /* sticker_resize.png */; };
+		BB551EF7C0569BB6DBB3A268DED3F6E8 /* sticker_close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1284F336A46BA28DFE79F5DBC5C914A /* sticker_close@2x.png */; };
+		D0A4FED2DD9DC954FB093EEA5004E845 /* Pods-ToDoey05-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 860A9C4E8C2F744EDD10BBC477A13C95 /* Pods-ToDoey05-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA78EF56823D023C7232C09D8AE5ECE /* ACEDrawingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64C6F34401A10B8794AB9DD1E67988DC /* ACEDrawingView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FDFB9AFCA1B0E14FAA42347FBD0E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8DADCFA587CB3E3352D71AC1ED3E5FD;
+			remoteInfo = ACEDrawingView;
+		};
+		4EE8CE361C64A6DB2526E55265AE6348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 099861DCA4FEC5497C5983104143405E;
+			remoteInfo = "ACEDrawingView-ACEDraggableText";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078A39F46D25391DDC6E02C66E98F2AF /* ACEDrawingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-prefix.pch"; sourceTree = "<group>"; };
+		140BB0EFAF180EFFB9350F0844D16707 /* ACEDrawingView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ACEDrawingView.modulemap; sourceTree = "<group>"; };
+		1B0E7C3E49061482B2CC67237DDAE1F5 /* Pods-ToDoey05.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoey05.release.xcconfig"; sourceTree = "<group>"; };
+		2308AB3B4092D582130AC83E3E41D486 /* Pods-ToDoey05-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoey05-acknowledgements.plist"; sourceTree = "<group>"; };
+		2B1EAAC63FAD7C3EB4C50E47C8DAD0CA /* sticker_resize.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sticker_resize.png; path = ACEDrawingView/ACEDraggableText/sticker_resize.png; sourceTree = "<group>"; };
+		2F891349900DBA3CAE0F01B65133D023 /* sticker_resize@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_resize@2x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_resize@2x.png"; sourceTree = "<group>"; };
+		2FB0ACA8D56127FAE0657B8EB655C5DA /* ResourceBundle-ACEDraggableText-ACEDrawingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ACEDraggableText-ACEDrawingView-Info.plist"; sourceTree = "<group>"; };
+		360332C9BA8C5D5A39B80E594B8AEDDB /* ACEDrawingLabelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingLabelView.m; path = ACEDrawingView/ACEDrawingLabelView.m; sourceTree = "<group>"; };
+		4057248BD9933E05C1B4D4378DC06B26 /* ACEDrawingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ACEDrawingView.framework; path = ACEDrawingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		438B8FD3ECF466E073568B182B2FC64C /* sticker_resize@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_resize@3x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_resize@3x.png"; sourceTree = "<group>"; };
+		4618ED70BB32E4514F5257F63249CDF4 /* ACEDrawingLabelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingLabelView.h; path = ACEDrawingView/ACEDrawingLabelView.h; sourceTree = "<group>"; };
+		49435067A4FB846AC026BEA8649EE9BE /* ACEDrawingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
+		4AF694C5A65ACEEBB7965B11AB0A65D5 /* ACEDrawingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ACEDrawingView-Info.plist"; sourceTree = "<group>"; };
+		614BC67AEBC9EA9CD19EFA66F9F9D815 /* Pods-ToDoey05-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDoey05-dummy.m"; sourceTree = "<group>"; };
+		64C6F34401A10B8794AB9DD1E67988DC /* ACEDrawingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACEDrawingView-dummy.m"; sourceTree = "<group>"; };
+		6B22ADC5578C17B0F22DCD9BCF755D85 /* Pods-ToDoey05.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDoey05.debug.xcconfig"; sourceTree = "<group>"; };
+		7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACEDrawingView.xcconfig; sourceTree = "<group>"; };
+		761BE41A8214A4E21E394613B404D36A /* Pods-ToDoey05.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToDoey05.modulemap"; sourceTree = "<group>"; };
+		797755E98A903E713D9EC6F44668E720 /* sticker_close@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_close@3x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_close@3x.png"; sourceTree = "<group>"; };
+		860A9C4E8C2F744EDD10BBC477A13C95 /* Pods-ToDoey05-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDoey05-umbrella.h"; sourceTree = "<group>"; };
+		89798763F9D17266DBF26D6CE0658601 /* Pods-ToDoey05-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDoey05-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8F3AE6EE76891734B2745EDA987EFA8C /* ACEDraggableText.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ACEDraggableText.bundle; path = "ACEDrawingView-ACEDraggableText.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F89DC9493D17D7362156215852310ED /* Pods_ToDoey05.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ToDoey05.framework; path = "Pods-ToDoey05.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D95F56AB2FAEFCE7BA6B27E977C25BA /* ACEDrawingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
+		A1284F336A46BA28DFE79F5DBC5C914A /* sticker_close@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "sticker_close@2x.png"; path = "ACEDrawingView/ACEDraggableText/sticker_close@2x.png"; sourceTree = "<group>"; };
+		A28BB568675C7BADA112176F5E86CE9E /* Pods-ToDoey05-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDoey05-frameworks.sh"; sourceTree = "<group>"; };
+		A3FA590F3B45D78BAE3A5204B8774FCE /* ACEDrawingTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
+		C6C3A49AEE84CB217D969202AA721DA4 /* ACEDrawingToolState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingToolState.h; path = ACEDrawingView/ACEDrawingToolState.h; sourceTree = "<group>"; };
+		C8EF9FE032C4D01D0F5395A4354117A9 /* sticker_close.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = sticker_close.png; path = ACEDrawingView/ACEDraggableText/sticker_close.png; sourceTree = "<group>"; };
+		CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DA1E8117C4C0B96C9DE4C4C6E0174C8B /* ACEDrawingTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
+		DAD02CF3592E5B0FEAA61D511232655B /* ACEDrawingView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEDrawingView-umbrella.h"; sourceTree = "<group>"; };
+		E29BB1D99E59D0DEA16CAF87291ED0B2 /* ACEDrawingToolState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingToolState.m; path = ACEDrawingView/ACEDrawingToolState.m; sourceTree = "<group>"; };
+		EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FC6470F26D872644EBC9C61A40B4C3EE /* Pods-ToDoey05-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDoey05-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6008AA0AFE3D2F7951AA3CEF291E9871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				869E529D66D122BD6C9CC45C4964C586 /* Foundation.framework in Frameworks */,
+				8145AD827E1E2858750C7787095E8E26 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70ED089BA0D5524D5E195C2A00950CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92D87824F7BCE226C45903B167D38C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A9BA285CF373081CD5EAC6D1A14662 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		511C9B29409CABC072D5889D8AFC3F60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C8EF9FE032C4D01D0F5395A4354117A9 /* sticker_close.png */,
+				A1284F336A46BA28DFE79F5DBC5C914A /* sticker_close@2x.png */,
+				797755E98A903E713D9EC6F44668E720 /* sticker_close@3x.png */,
+				2B1EAAC63FAD7C3EB4C50E47C8DAD0CA /* sticker_resize.png */,
+				2F891349900DBA3CAE0F01B65133D023 /* sticker_resize@2x.png */,
+				438B8FD3ECF466E073568B182B2FC64C /* sticker_resize@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		54BA765A213CF4F8B4806231DCD8B4DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C1FEB56E3D17C3B40B38CC09BFDF8 /* Pods-ToDoey05 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6C850C37433B9EAF70AA8EF4EC21FC43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EB0F1732A2D4DBA41714F9E205837D34 /* Foundation.framework */,
+				CB6193BDF9256B1B2DC71E7CF8BFFB3D /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		73B145A55D43C72104D1885CFCAF4EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F3AE6EE76891734B2745EDA987EFA8C /* ACEDraggableText.bundle */,
+				4057248BD9933E05C1B4D4378DC06B26 /* ACEDrawingView.framework */,
+				8F89DC9493D17D7362156215852310ED /* Pods_ToDoey05.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF00D2D3DA14C1506A82BDF21D26666F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				140BB0EFAF180EFFB9350F0844D16707 /* ACEDrawingView.modulemap */,
+				7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */,
+				64C6F34401A10B8794AB9DD1E67988DC /* ACEDrawingView-dummy.m */,
+				4AF694C5A65ACEEBB7965B11AB0A65D5 /* ACEDrawingView-Info.plist */,
+				078A39F46D25391DDC6E02C66E98F2AF /* ACEDrawingView-prefix.pch */,
+				DAD02CF3592E5B0FEAA61D511232655B /* ACEDrawingView-umbrella.h */,
+				2FB0ACA8D56127FAE0657B8EB655C5DA /* ResourceBundle-ACEDraggableText-ACEDrawingView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ACEDrawingView";
+			sourceTree = "<group>";
+		};
+		B1475BB94AE3921CF1D9409E8E3598B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEDE88AB9C4E71F210F39BF476E71CB3 /* ACEDrawingView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF6C1FEB56E3D17C3B40B38CC09BFDF8 /* Pods-ToDoey05 */ = {
+			isa = PBXGroup;
+			children = (
+				761BE41A8214A4E21E394613B404D36A /* Pods-ToDoey05.modulemap */,
+				89798763F9D17266DBF26D6CE0658601 /* Pods-ToDoey05-acknowledgements.markdown */,
+				2308AB3B4092D582130AC83E3E41D486 /* Pods-ToDoey05-acknowledgements.plist */,
+				614BC67AEBC9EA9CD19EFA66F9F9D815 /* Pods-ToDoey05-dummy.m */,
+				A28BB568675C7BADA112176F5E86CE9E /* Pods-ToDoey05-frameworks.sh */,
+				FC6470F26D872644EBC9C61A40B4C3EE /* Pods-ToDoey05-Info.plist */,
+				860A9C4E8C2F744EDD10BBC477A13C95 /* Pods-ToDoey05-umbrella.h */,
+				6B22ADC5578C17B0F22DCD9BCF755D85 /* Pods-ToDoey05.debug.xcconfig */,
+				1B0E7C3E49061482B2CC67237DDAE1F5 /* Pods-ToDoey05.release.xcconfig */,
+			);
+			name = "Pods-ToDoey05";
+			path = "Target Support Files/Pods-ToDoey05";
+			sourceTree = "<group>";
+		};
+		CEDE88AB9C4E71F210F39BF476E71CB3 /* ACEDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				4618ED70BB32E4514F5257F63249CDF4 /* ACEDrawingLabelView.h */,
+				360332C9BA8C5D5A39B80E594B8AEDDB /* ACEDrawingLabelView.m */,
+				DA1E8117C4C0B96C9DE4C4C6E0174C8B /* ACEDrawingTools.h */,
+				A3FA590F3B45D78BAE3A5204B8774FCE /* ACEDrawingTools.m */,
+				C6C3A49AEE84CB217D969202AA721DA4 /* ACEDrawingToolState.h */,
+				E29BB1D99E59D0DEA16CAF87291ED0B2 /* ACEDrawingToolState.m */,
+				49435067A4FB846AC026BEA8649EE9BE /* ACEDrawingView.h */,
+				9D95F56AB2FAEFCE7BA6B27E977C25BA /* ACEDrawingView.m */,
+				511C9B29409CABC072D5889D8AFC3F60 /* Resources */,
+				AF00D2D3DA14C1506A82BDF21D26666F /* Support Files */,
+			);
+			name = ACEDrawingView;
+			path = ACEDrawingView;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				B1475BB94AE3921CF1D9409E8E3598B1 /* Pods */,
+				73B145A55D43C72104D1885CFCAF4EB9 /* Products */,
+				54BA765A213CF4F8B4806231DCD8B4DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69C9C6B44B65311F22A4B86FD677DF60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A4FED2DD9DC954FB093EEA5004E845 /* Pods-ToDoey05-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A18E9C8DC64CEA2EFF13E7863B5405D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708FF7D13544AFA4A957BB9D167AA6B7 /* ACEDrawingLabelView.h in Headers */,
+				13F68B5BC87829190C34D8D126917198 /* ACEDrawingTools.h in Headers */,
+				B07813CF07C7AFD2C19C4DCF32B792C7 /* ACEDrawingToolState.h in Headers */,
+				14AE5FA78E3BC4748CFC40DFC5290DE4 /* ACEDrawingView-umbrella.h in Headers */,
+				7594C7B2642217875F9781278E256599 /* ACEDrawingView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		099861DCA4FEC5497C5983104143405E /* ACEDrawingView-ACEDraggableText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71954AEFA9C796FDFC50A1198127FFD /* Build configuration list for PBXNativeTarget "ACEDrawingView-ACEDraggableText" */;
+			buildPhases = (
+				67956697E4D5FB9D01CF85D3714315A0 /* Sources */,
+				70ED089BA0D5524D5E195C2A00950CB4 /* Frameworks */,
+				D7845C700D123BB69EB386E58D009B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ACEDrawingView-ACEDraggableText";
+			productName = "ACEDrawingView-ACEDraggableText";
+			productReference = 8F3AE6EE76891734B2745EDA987EFA8C /* ACEDraggableText.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		35294B9FD62375BFC848E3804D212E7F /* Pods-ToDoey05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01CBF835C9FEBDEEC0DA279F1C4BDA60 /* Build configuration list for PBXNativeTarget "Pods-ToDoey05" */;
+			buildPhases = (
+				69C9C6B44B65311F22A4B86FD677DF60 /* Headers */,
+				5B11B7C3480F3CE2E9D270BA1698E150 /* Sources */,
+				8D92D87824F7BCE226C45903B167D38C /* Frameworks */,
+				270A9A027C5D4C9994FE6263A9DBBA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2008EFAD800E7CAF0F6321447BDC6CC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDoey05";
+			productName = "Pods-ToDoey05";
+			productReference = 8F89DC9493D17D7362156215852310ED /* Pods_ToDoey05.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8DADCFA587CB3E3352D71AC1ED3E5FD /* ACEDrawingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F64D5AB088BB5F5A6417CDD79978DE /* Build configuration list for PBXNativeTarget "ACEDrawingView" */;
+			buildPhases = (
+				A18E9C8DC64CEA2EFF13E7863B5405D4 /* Headers */,
+				FE73BE7609F833C1FE45C13463A244D6 /* Sources */,
+				6008AA0AFE3D2F7951AA3CEF291E9871 /* Frameworks */,
+				3B64A9DCC94721E3E997B1532DD4E5DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F30520E5B89505972BAC353B34B98A /* PBXTargetDependency */,
+			);
+			name = ACEDrawingView;
+			productName = ACEDrawingView;
+			productReference = 4057248BD9933E05C1B4D4378DC06B26 /* ACEDrawingView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 73B145A55D43C72104D1885CFCAF4EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8DADCFA587CB3E3352D71AC1ED3E5FD /* ACEDrawingView */,
+				099861DCA4FEC5497C5983104143405E /* ACEDrawingView-ACEDraggableText */,
+				35294B9FD62375BFC848E3804D212E7F /* Pods-ToDoey05 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		270A9A027C5D4C9994FE6263A9DBBA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B64A9DCC94721E3E997B1532DD4E5DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F528671CAC96D3200C85E4701A4157D /* ACEDraggableText.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7845C700D123BB69EB386E58D009B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06DF817A3EB1994EF1B35C746AD0DFF0 /* sticker_close.png in Resources */,
+				BB551EF7C0569BB6DBB3A268DED3F6E8 /* sticker_close@2x.png in Resources */,
+				7462DED3CF7AF5EEBE4732069C98D69E /* sticker_close@3x.png in Resources */,
+				B14E5B46C138E3E4D858474210994859 /* sticker_resize.png in Resources */,
+				3EDD0B329C4FDDF12BB0472AB93EBDA6 /* sticker_resize@2x.png in Resources */,
+				704791E72D7638F10727726B2CDE0A76 /* sticker_resize@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B11B7C3480F3CE2E9D270BA1698E150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AC4EA97B560B2551E1041E3DDB786 /* Pods-ToDoey05-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67956697E4D5FB9D01CF85D3714315A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE73BE7609F833C1FE45C13463A244D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E1B7810D5CBB6961C39A6F9AB7E141 /* ACEDrawingLabelView.m in Sources */,
+				8355147953F20AA57095C8143FB1AA90 /* ACEDrawingTools.m in Sources */,
+				86CA1339F767C13193ED7D3F6531CEFC /* ACEDrawingToolState.m in Sources */,
+				FFA78EF56823D023C7232C09D8AE5ECE /* ACEDrawingView-dummy.m in Sources */,
+				0387DD8C570EE323D761613B9D9F7CFF /* ACEDrawingView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2008EFAD800E7CAF0F6321447BDC6CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACEDrawingView;
+			target = C8DADCFA587CB3E3352D71AC1ED3E5FD /* ACEDrawingView */;
+			targetProxy = 45FDFB9AFCA1B0E14FAA42347FBD0E40 /* PBXContainerItemProxy */;
+		};
+		25F30520E5B89505972BAC353B34B98A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ACEDrawingView-ACEDraggableText";
+			target = 099861DCA4FEC5497C5983104143405E /* ACEDrawingView-ACEDraggableText */;
+			targetProxy = 4EE8CE361C64A6DB2526E55265AE6348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B4FC96547A6E737578AEB52204B404 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0E7C3E49061482B2CC67237DDAE1F5 /* Pods-ToDoey05.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoey05/Pods-ToDoey05-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoey05/Pods-ToDoey05.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C3181CF6C257B6AEC20DD93598D1DE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				PRODUCT_MODULE_NAME = ACEDrawingView;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8F9B4D52A04581190E34DF3D3EAFC96A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ACEDrawingView/ACEDrawingView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ACEDrawingView/ACEDrawingView.modulemap";
+				PRODUCT_MODULE_NAME = ACEDrawingView;
+				PRODUCT_NAME = ACEDrawingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B99106800FB9A1FECA9199C6AF195B77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ACEDrawingView";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ResourceBundle-ACEDraggableText-ACEDrawingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ACEDraggableText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CFF79A51310F984EDD8810249AA067DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B22ADC5578C17B0F22DCD9BCF755D85 /* Pods-ToDoey05.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDoey05/Pods-ToDoey05-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDoey05/Pods-ToDoey05.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC683F6BDDB19141799F5588B4E62E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7477A38E06199F310FF6BACD178DC531 /* ACEDrawingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ACEDrawingView";
+				INFOPLIST_FILE = "Target Support Files/ACEDrawingView/ResourceBundle-ACEDraggableText-ACEDrawingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ACEDraggableText;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01CBF835C9FEBDEEC0DA279F1C4BDA60 /* Build configuration list for PBXNativeTarget "Pods-ToDoey05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFF79A51310F984EDD8810249AA067DE /* Debug */,
+				01B4FC96547A6E737578AEB52204B404 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F64D5AB088BB5F5A6417CDD79978DE /* Build configuration list for PBXNativeTarget "ACEDrawingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C3181CF6C257B6AEC20DD93598D1DE6 /* Debug */,
+				8F9B4D52A04581190E34DF3D3EAFC96A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71954AEFA9C796FDFC50A1198127FFD /* Build configuration list for PBXNativeTarget "ACEDrawingView-ACEDraggableText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC683F6BDDB19141799F5588B4E62E55 /* Debug */,
+				B99106800FB9A1FECA9199C6AF195B77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
